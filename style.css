@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1 {
   color: #2c3e50;
   text-align: center;
@@ -23,6 +24,24 @@ button {
   padding: 10px;
   cursor: pointer;
 }
+=======
+   body{
+
+background-color: wheat;
+color: orange;
+   }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-family: arial, sans-serif;
+            text-decoration: underline;
+        }
+        p.description {
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin-bottom: 20px;
+        }
+>>>>>>> cbd4d9765d5f7f4ccce16909ed54049402ec3153
 
 .button-container {
   display: flex;
@@ -49,6 +68,13 @@ button {
 
 .btn:active {
   transform: scale(0.97);
+<<<<<<< HEAD
+=======
+
+body{
+    background-color: wheat;
+    color: orange;
+>>>>>>> cbd4d9765d5f7f4ccce16909ed54049402ec3153
 }
 
 body {
@@ -66,6 +92,7 @@ button {
 
   font-size: 30px;
 
+<<<<<<< HEAD
   color: rgb(27, 104, 104);
 }
         body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #fff; }
@@ -98,3 +125,11 @@ button {
         .download-btn:hover { background-color: #219150; }
         
         .back-link { display: inline-block; margin-top: 20px; color: #3498db; text-decoration: none; }
+=======
+    color: rgb(27, 104, 104);
+   
+   
+}
+
+}
+>>>>>>> cbd4d9765d5f7f4ccce16909ed54049402ec3153
