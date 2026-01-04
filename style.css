@@ -2,3 +2,17 @@ body{
     background-color: wheat;
     color: orange;
 }
+    button{
+display: flex;
+flex-wrap: wrap;
+    gap: 20px;
+margin: 50px 0;
+ padding: 15px 25px;
+
+
+ font-size: 30px;
+
+    color: rgb(27, 104, 104);
+   
+   
+}
