@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<style>
-    h1 {
-        color: #2c3e50;
-        text-align: center;
-        font-family: arial, sans-serif;
-        text-decoration: underline;
-    }
+    <title>BCA Papers</title>
+    <style>
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-family: arial, sans-serif;
+            text-decoration: underline;
+        }
+        p.description {
+            text-align: center;
+            font-family: arial, sans-serif;
+            margin-bottom: 20px;
+        }
 
-    .button-container {
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        width: 200px;
-        margin: 20px;
-    }
-    text {
-        text-align: center;
-    }
-</style>
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 200px;
+            margin: 0 auto; 
+        }
+        
+        button {
+            padding: 10px;
+            cursor: pointer;
+        }
+        ```css
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #4e73df, #224abe);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #224abe, #1a3aa8);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+    </style>
+</head>
 
 <body>
     <h1>BCA PREVIOUS YEAR QUESTION PAPER</h1>
-    <text>
-        Here we provide you bca previous year question paper which helps to prepration fir exams
-    </text>
-    <div class="button-container">
-        <button> BCA 1ST SEM </button>
-        <button> BCA 2ND SEM</button>
-        <button> BCA 3RD SEM </button>
-        <button> BCA 4TH SEM </button>
-        <button> BCA 5TH SEM </button>
-        <button> BCA 6TH SEM </button>
-    </div>
-</body>
+    
+    <p class="description">
+        Here we provide you BCA previous year question papers which helps to prepare for exams.
+    </p>
 
+   <div class="button-container">
+  <a href="sem1.html" class="btn">BCA 1ST SEM</a>
+  <a href="sem2.html" class="btn">BCA 2ND SEM</a>
+  <a href="sem3.html" class="btn">BCA 3RD SEM</a>
+  <a href="sem4.html" class="btn">BCA 4TH SEM</a>
+  <a href="sem5.html" class="btn">BCA 5TH SEM</a>
+  <a href="sem6.html" class="btn">BCA 6TH SEM</a>
+
+    </div>
+  
+</body>
 </html>
