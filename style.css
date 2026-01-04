@@ -1,4 +1,8 @@
-<<<<<<< HEAD
+   body{
+
+background-color: wheat;
+color: orange;
+   }
         h1 {
             color: #2c3e50;
             text-align: center;
@@ -48,7 +52,7 @@
 
 .btn:active {
   transform: scale(0.97);
-=======
+
 body{
     background-color: wheat;
     color: orange;
@@ -66,5 +70,6 @@ margin: 50px 0;
     color: rgb(27, 104, 104);
    
    
->>>>>>> a4f44a4a173e8d7e6a50e79811c43960a2158dac
+}
+
 }
