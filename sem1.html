@@ -11,34 +11,62 @@
     <h1>BCA 1st Semester Papers</h1>
     <p style="font-size: 22px;">Below are the previous year question papers available for download.</p>
 
-    <ul class="paper-list">
+    
+
+<ul class="paper-list">
         
-        <li class="paper-item">
+      
+    
+    
+    <li class="paper-item">
             <span class="paper-name">Mathematics - I </span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
+          <button class="download-btn" onclick="ToggleList('math-list')">VIEW PAPERS</button>
+        
+
+
+          <ul id="math-list" class="sub-papers-list" style="display: none;">
+<li>
+    <span  style="cursor: pointer;color: blue;"  onclick="ToggleDownload('math2024')">2023 paper</span>
+
+    <a id="math2024" href="image copy 4.png" download style="display: none;margin-left: 10px;">download</a>
+
+</li>
+
+<li>
+    <a href="image.png">2022 paper</a>
+</li>
+ </ul>
+          
+       
+ 
+
+            <a href="image.png" class="download-link"download="image.png">DOWNLOAD</a>
         </li>
 
+
+
+
         <li class="paper-item">
-            <span class="paper-name">C Programming </span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
+            <span class="paper-name">C Programming </span> 
+           <a href="image copy 4.png" class="download">DOWNLOAD</a>
         </li>
 
         <li class="paper-item">
             <span class="paper-name">Communication Skills </span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
+            <a href="image copy 4.png" class="paper-list">DOWNLOAD</a>
         </li>
          <li class="paper-item">
             <span class="paper-name"> Fundamental</span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
+            <a href="image copy 4.png" class="paper-list">DOWNLOAD</a>
         </li>
          <li class="paper-item">
             <span class="paper-name">OAT</span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
+            <a href="image.png" class="paper-list">DOWNLOAD</a>
         </li>
 
     </ul>
 
     <a href="index.html" style="font-size: 22px; display: flex;justify-content: center;">← Back to Main Menu</a>
-
+<script src="server.js"></script>
 </body>
 </html>
