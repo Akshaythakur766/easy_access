@@ -8,19 +8,26 @@ buttons.forEach(button => {
     });
 });
 
+function toggleList(listId){
+    const list =
+    document.getElementById(listId);
 
-function ToggleDownload(id){
-    var dlLink =
-    document.getElementById(id);
+    if (list.style.display ==="none"
+        || list.style.display === ""
+    )
+    {list.style.display ="block";
 
-    if (dlLink) {
-    if (dlLink.style.display === "none"
-        || dlLink.style.display === ""  )
-    {
-        dlLink.style.display = "inline-block";
-    }
-     else {
-        dlLink.style.display = "none";
+    } else {list.style.display ="none";
     }
 }
+
+
+function openPaper(id){
+    const link =
+    document.getElementById(id);
+    if (link){
+window.open(link.href,'_blank');
+
+    } 
+  
 }
