@@ -1,5 +1,5 @@
 
-console.log("hello world")
+console.log("hello world");
 const buttons = document.querySelectorAll("button-container");
 buttons.forEach(button => {
     button.addEventListener("click", () => {

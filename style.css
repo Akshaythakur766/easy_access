@@ -2,7 +2,7 @@
 h1 {
   color: #2c3e50;
   text-align: center;
-  font-family: arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
 }
 
@@ -29,6 +29,7 @@ p.description {
    body{
 
 background-color: wheat;
+background: linear-gradient();
 color: orange;
    }
    
@@ -86,7 +87,11 @@ button {
             border-radius: 5px;
         }
 
-        .paper-name { font-weight: bold; font-size: 18px; color: #444; }
+        .paper-name { 
+          font-weight: bold; 
+          font-size: 22px; color: #444;
+         }
+
         .download-btn {
             text-decoration: none;
             background-color: #27ae60; /* Green color */

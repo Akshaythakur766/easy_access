@@ -3,42 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BCA 1st Semester Papers</title>
+    <title>BCA 6th Semester Papers</title>
         <link rel="stylesheet" href="style.css" class="css">
 </head>
 <body>
 
-    <h1>BCA 1st Semester Papers</h1>
+
+
+    <h1>BCA 6th Semester Papers</h1>
     <p style="font-size: 22px;">Below are the previous year question papers available for download.</p>
 
-    <ul class="paper-list">
-        
-        <li class="paper-item">
+
+
+<ul class="paper-list">
+          <li class="paper-item">
             <span class="paper-name">Multimedia Technology </span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
-        </li>
+          <button class="download-btn" onclick="toggleList('mt-list')">VIEW PAPERS</button>
+        
 
-        <li class="paper-item">
+          <ul id="mt-list" class="sub-papers-list" style="display: none;">
+
+<li>
+          <span  style="cursor: pointer;color: blue;"   onclick="openPaper('mt2023')">2023 PAPER</span>
+          <a id="mt2023"  href="image copy 5.png" download="555"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+
+<li>
+           <span  style="cursor: pointer;color: blue;"   onclick="openPaper('mt2022')">2022 PAPER</span>
+           <a id="mt2022"  href="image copy 5.png" download="666"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+</ul>
+
+</li>
+
+<ul class="paper-list">
+          <li class="paper-item">
             <span class="paper-name">Software Engineering </span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
-        </li>
+          <button class="download-btn" onclick="toggleList('se-list')">VIEW PAPERS</button>
+        
 
-        <li class="paper-item">
-            <span class="paper-name">Numerical Methods </span>
-            <a href="#" class="LIST">DOWNLOAD</a>
-        </li>
-         <li class="paper-item">
-            <span class="paper-name"> Computer Networks</span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
-        </li>
-         <li class="paper-item">
-            <span class="paper-name">Computer Graphics</span>
-            <a href="#" class="paper-list">DOWNLOAD</a>
-        </li>
+          <ul id="se-list" class="sub-papers-list" style="display: none;">
 
-    </ul>
+<li>
+          <span  style="cursor: pointer;color: blue;"   onclick="openPaper('se2023')">2023 PAPER</span>
+          <a id="se2023"  href="image copy 5.png" download="555"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
 
+<li>
+           <span  style="cursor: pointer;color: blue;"   onclick="openPaper('se2022')">2022 PAPER</span>
+           <a id="se2022"  href="image copy 5.png" download="666"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+</ul>
+
+</li>
+
+<ul class="paper-list">
+          <li class="paper-item">
+            <span class="paper-name">Numerical Method </span>
+          <button class="download-btn" onclick="toggleList('nm-list')">VIEW PAPERS</button>
+        
+
+          <ul id="nm-list" class="sub-papers-list" style="display: none;">
+
+<li>
+          <span  style="cursor: pointer;color: blue;"   onclick="openPaper('nm2023')">2023 PAPER</span>
+          <a id="nm2023"  href="image copy 5.png" download="555"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+
+<li>
+           <span  style="cursor: pointer;color: blue;"   onclick="openPaper('nm2022')">2022 PAPER</span>
+           <a id="nm2022"  href="image copy 5.png" download="666"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+</ul>
+
+</li>
+
+
+
+<ul class="paper-list">
+          <li class="paper-item">
+            <span class="paper-name">Computer Networks </span>
+          <button class="download-btn" onclick="toggleList('cn-list')">VIEW PAPERS</button>
+        
+
+          <ul id="cn-list" class="sub-papers-list" style="display: none;">
+
+<li>
+          <span  style="cursor: pointer;color: blue;"   onclick="openPaper('cn2023')">2023 PAPER</span>
+          <a id="cn2023"  href="image copy 5.png" download="555"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+
+<li>
+           <span  style="cursor: pointer;color: blue;"   onclick="openPaper('cn2022')">2022 PAPER</span>
+           <a id="cn2022"  href="image copy 5.png" download="666"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+</ul>
+
+</li>
+
+
+
+<ul class="paper-list">
+          <li class="paper-item">
+            <span class="paper-name">Computer Graphics </span>
+          <button class="download-btn" onclick="toggleList('cg-list')">VIEW PAPERS</button>
+        
+
+          <ul id="cg-list" class="sub-papers-list" style="display: none;">
+
+<li>
+          <span  style="cursor: pointer;color: blue;"   onclick="openPaper('cg2023')">2023 PAPER</span>
+          <a id="cg2023"  href="image copy 5.png" download="555"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+
+<li>
+           <span  style="cursor: pointer;color: blue;"   onclick="openPaper('cg2022')">2022 PAPER</span>
+           <a id="cg2022"  href="image copy 5.png" download="666"  target="_blank "  margin-left: 10px; >DOWNLOAD</a>
+</li>
+</ul>
+
+</li>
+
+
+    
     <a href="index.html"  style="font-size: 22px; display: flex;justify-content: center;">← Back to Main Menu</a>
-
+<script src="server.js"></script>
 </body>
 </html>
